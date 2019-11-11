@@ -4,6 +4,8 @@
 #include"cNode.h"
 #include<iostream>
 using namespace std;
+
+/* default constructor*/
 List::List()
 {
 	headNode = 0;
