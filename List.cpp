@@ -39,6 +39,8 @@ void List::insert(int n)
 		insertAtBegin(n);
 	}
 }
+
+/* print function for printing nodes from the list*/
 void List::printAll()
 {
 	cNode* ptr;
@@ -51,11 +53,15 @@ void List::printAll()
 		ptr = ptr->nextNode;
 	}
 }
+
+/* start function to start from the head Node*/
 void List::start()
 {
 	lastcurrentNode = 0;
 	currentNode = headNode;
 }
+
+/* move function to move the list*/
 void List::move()
 {
 	lastcurrentNode = currentNode;
