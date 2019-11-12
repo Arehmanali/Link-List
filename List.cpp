@@ -13,6 +13,8 @@ List::List()
 	lastcurrentNode = 0;
 	size = 0;
 }
+
+./* indert the new nodes */
 void List::insert(int n)
 {
 	if (currentNode != 0)
