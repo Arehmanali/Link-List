@@ -1,4 +1,6 @@
 #include "cNode.h"
+
+// setter function for setting the value of nodes
 void cNode:: setValue(int v)
 {
 	value = v;
