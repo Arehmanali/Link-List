@@ -67,14 +67,20 @@ void List::move()
 	lastcurrentNode = currentNode;
 	currentNode = currentNode->getNextNode();
 }
+
+// Getter function for getting value of current Node
 int List::get()
 {
 	return currentNode->getValue();
 }
+
+/* getter function for getting size of nodes*/
 int List::getSize()
 {
 	return size;
 }
+
+/* inserting function for inserting new nodes at the begin of list*/
 void List::insertAtBegin(int n)
 {
 	start();
