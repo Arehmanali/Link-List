@@ -91,6 +91,8 @@ void List::insertAtBegin(int n)
 	currentNode->setValue(n);
 	size++;
 }
+
+/* inserting function for inserting new nodes at the end of list*/
 void List::insertAtLast(int n)
 {
 	start();
@@ -107,6 +109,8 @@ void List::insertAtLast(int n)
 	currentNode->setNextNode(0);
 	size++;
 }
+
+/* update function for ubdating the values of nodes*/
 void List::update(int n)
 {
 	start();
