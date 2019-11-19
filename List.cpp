@@ -165,6 +165,8 @@ void List::deleteNode()
 		size--;
 	}
 }
+
+/* Search the Nodes from the List*/
 void List::search()
 {
 	start();
@@ -190,6 +192,8 @@ void List::search()
 		cout << "Node is Not Found\n";
 	}
 }
+
+/* Insert the new Nodes after the particular index*/
 void List::insertNewAfter(int n)
 {
 	start();
@@ -222,6 +226,8 @@ void List::insertNewAfter(int n)
 		size++;
 	}
 }
+
+/* insert function for inserting the new node after particular value of nodes*/
 void List::insertAfter(int n)
 {
 	start();
@@ -245,6 +251,8 @@ void List::insertAfter(int n)
 	size++;
 
 }
+
+/* Sum function for the sum of the value of Nodes in the List*/
 void List::sum()
 {
 	int sum = 0;
@@ -256,6 +264,8 @@ void List::sum()
 	}
 	cout << "\n Sum of all Nodes is:" << sum << endl;
 }
+
+/* reverse function for reversing the nodes*/
 void List::reverseNode()
 {
 	start();
